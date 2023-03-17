@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Shodhak Pravasi Explorer</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/iCoderBootstrap/">SHODHAK Pravasi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/iCoderBootstrap/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/iCoderBootstrap/about.html">About</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Topics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="forts.html">Forts</a>
+                        <a class="dropdown-item" href="#">Caves</a>
+                        <a class="dropdown-item" href="#">Temples</a>
+                        <a class="dropdown-item" href="#">Waterfall</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/iCoderBootstrap/contact.html">Contact Us</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+                <button class="btn btn-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#signupModal">SignUp</button>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login to Shodhak Pravasi</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get an Shodhak Pravasi Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="cexampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Creat Account</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!--start  page text -->
+    <table border="0" width=100% cellspacing=6>
+        <tr width=100% bgColor="#F99417" height=30>
+            <td align="center" width=80%><b>
+                    <font size=6 face=""> कोकणदिवा </font>
+                    <font size=2 face="VERDANA"> (Kokandiva) </font>
+                </b></td>
+            <td>
+                <font size=4 face=""><b>किल्ल्याची ऊंची :&nbsp</b></font>
+                <font size=4 face="">900</font>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="top">
+                <font size=4 face=""><b>किल्ल्याचा प्रकार :&nbsp</b>गिरीदुर्ग</font>
+            </td>
+            <td width="50%">
+                <font size=4 face=""><b>डोंगररांग:&nbsp</b>रायगड</font>
+            </td>
+            <p>
+        </tr>
+
+        <tr>
+            <td width="50%">
+                <font size=4 face=""><b>जिल्हा :&nbsp</b>रायगड</font>
+            </td>
+            <td width="50%">
+                <font size=4 face=""><b>श्रेणी :&nbsp</b>मध्यम</font>
+            </td>
+            <p>
+
+
+        <tr width="100%">
+            <Td colspan=2 width="100%">
+                <font size=4>सह्याद्रीमध्ये आपल्याला नानाविध प्रकारच्या पर्वतरांगा बघायला मिळतात, पण त्यात सरस ठरतो तो
+                    रायगड. रायगडाला चोहोबाजूंनी पर्वतरंगांचे अभेद्य संरक्षण लाभले आहे आणि म्हणूनच तो लांबून लगेच दृष्टीस
+                    पडत नाही. कोकणदिवा हा रायगडाच्या उत्तर दिशेला असून त्याचा मुख्यत: वापर हा रायगड आणि कावळे
+                    घाटमार्गावर नजर ठेवण्यासाठी करण्यात येत असावा असा निष्कर्ष काढता येतो. <br><br>विशेष सूचना:<br>१.
+                    गुहेच्या पुढे गडमाथ्यावर जाणारा मार्ग पावसाळ्यात निसरडा होत असल्याने काळजी घेणे महत्वाचे आहे. <br>२.
+                    गारजाईवाडी मधील पाणी चांगले नसल्यामुळे सोबत भरपूर पाणी बाळगावे. <br></font>
+            </td>
+        </tr>
+
+
+        <tr>
+            <Td colspan=2>
+                <font size=5 face=""><b>पहाण्याची ठिकाणे :</b></font>
+            </Td>
+        </tr>
+        <p>
+
+
+            <tr>
+                <Td colspan=2>
+                    <font size=4 face="">गडमाथ्या अगोदर आपल्याला कातळटप्पा लागतो. या कातळटप्प्याच्या खाली पश्चिमेकडे
+                        (डावीकडे) एक गुहा आहे. गुहे समोरच ४ पाण्याची टाकी आहेत. यापैकी गुहेजवळील १ टाके स्वच्छ असून
+                        त्यातील पाणी पिण्यायोग्य आहे. हे पाणी टाके पूर्ण उघडे नसून त्यातून पाणी काढायला २ फूट व्यासाचे
+                        दगडात भोक ठेवलेले पाहायला मिळते. पाण्यात कचरा पडू नये व कमीत कमी पाण्याची वाफ व्हावी यासाठी
+                        टाक्याची अशी रचना केली जाते. उर्वरीत ३ टाक्यां पर्यंत जाणे कठीण आहे. गुहेच्या पाहून परत मुळ
+                        वाटेला लागून १० फूटाचा कातळटप्पा चढून गेल्यावर, थोडीशी घसार्‍याची वाट (स्क्री) लागते. ती पार
+                        केल्यावर आपण गडमाथ्यावर पोहोचतो.( पावसाळ्यात हा कातळ टप्पा चढण्यासाठी दोर लागू शकतो.)
+                        गडमाथ्यावरून दक्षिणेकडे किल्ले रायगड आणि पूर्वेला किल्ले तोरणा आग्नेयेला लिंगाणा व पश्चिमेला
+                        कावळ्या घाट ह्यांचे सुरेख दर्शन होते. <br>गडावरून खाली उतरताना सरळ खाली येणारी वाट गारजाईवाडी
+                        जाते. तर नळीच्या मार्गाने डावीकडे गेल्यास कावळे घाट मार्गे सांदोशीत उतरता येते. <br></font>
+                </Td>
+            </tr>
+
+            <tr>
+                <Td colspan=2>
+                    <font size=5 face=""><b>पोहोचण्याच्या वाटा :</b></font>
+                </td>
+            </tr>
+
+            <tr>
+                <Td colspan=2>
+                    <font size=4 face="">कोकणदिवाला दोन मार्गांनी पोहोचता येते :<br>१. गारजाईवाडी मार्गे आणि २. सांदोशी
+                        गावातून कावळे घाटमार्गे<br><br>१. गारजाईवाडी मार्गे :- गारजाईवाडी कडून जाणारी वाट सोपी आहे.
+                        गारजाई वाडीला पोहोचण्यासाठी पुणे - पानशेत - दापसर - घोळ (अंतर ७५ किमी) मार्गे आधी घोळ गाव
+                        गाठावे. घोळ येथे पोहोचून उजवीकडे (पूर्वेकडे) जाणार्‍या लालमातीच्या वाटेने साधारणत: २ ते ३ कि.
+                        मी. (१ तास) चालल्यावर आपण गारजाईवाडी मध्ये पोहोचतो. गारजाईवाडी गाव डावीकडे ठेवून (येथे पुढे एक
+                        वाट डावीकडे गावात शिरते,) ती सोडून आपण उजवीकडे जायला चालू करायचे. हीच वाट पुढे थोडी खाली उतरते
+                        आणि झाडीत शिरते. साधारण १० मिनिटे चालल्यावर डावीकडे वळणारी (पूर्वेकडे) एक वाट पुढे उघड्या
+                        रानमाळावर आणून सोडते. येथून आपल्याला दक्षिणोत्तर पसरलेल्या कोकणदिवाचे प्रथम दर्शन होते. पुढे
+                        उघडा रानमाळ असून मधे नळीची वाट दिसते. ती पार केल्यावर आपण गडाच्या पायथ्याशी पोहोचतो. पुढील चढाई
+                        दक्षिणेकडून उत्तरेकडे अशी आहे. वाटेत बरीच झाडी असल्यामुळे उन्हाचा त्रास होत नाही. सरळ जाणारी ही
+                        पायवाट साधारण अर्ध्यातासाच्या चढाईनंतर गडमाथ्याजवळील गुहेजवळ आणून सोडते.<br><br>२. सांदोशी
+                        गावातून कावळे घाटमार्गे :- मुंबई - पनवेल मार्गे महाड गाठावे. महाड - पाचाड - सांदोशी अंतर ३२ किमी
+                        आहे. या मार्गावर ६ आसनी रिक्षा व एसटी बसेस आहेत. सांदोशी ते कावळ्या घाटमार्गे २ तास चढाई
+                        केल्यावर आपण किल्ल्याच्या गारजाईवाडी कडून येणार्‍या वाटेला मिळतो. (या वाटेने जाण्याकरीता गावातून
+                        गाईड घेतल्यास उत्तम, चुकण्याची शक्यता जास्त आहे.) या ठिकाणाहून १ तासात आपण गडमाथ्यावर
+                        पोहोचतो.<br></font>
+                </Td>
+            </tr>
+
+            <tr>
+                <Td colspan=2>
+                    <font size=5 face=""><b>राहाण्याची सोय :</b></font>
+                </Td>
+            </tr>
+            <tr>
+                <Td colspan=2>
+                    <font size=4 face="">गडावरील गुहेत ७-८ जणांना राहत येऊ शकते. <br>गारजाईवाडीतील देवीच्या मंदिरात १०
+                        जणांची राहाण्याची सोय होऊ शकते.<br></font>
+                </Td>
+            </tr>
+        <p>
+
+            <tr>
+                <Td colspan=2>
+                    <font size=5 face=""><b>जेवणाची सोय :</b></font>
+                </Td>
+            </tr>
+            <tr>
+                <Td colspan=2>
+                    <font size=4 face="">गडावर जेवणाची सोय नाही. <br></font>
+                </Td>
+            </tr>
+        <p>
+
+            <tr>
+                <Td colspan=2>
+                    <font size=5 face=""><b>पाण्याची सोय :</b></font>
+                </Td>
+            </tr>
+            <tr>
+                <Td colspan=2>
+                    <font size=4 face="">गुहेबाहेरील पिण्याच्या पाण्याचे टाके स्वछ असून पाणी पिण्यायोग्य आहे.</font>
+                </Td>
+            </tr>
+        <p>
+
+            <tr>
+                <Td colspan=2>
+                    <font size=5 face=""><b>जाण्यासाठी लागणारा वेळ :</b></font>
+                </Td>
+            </tr>
+            <tr>
+                <Td colspan=2>
+                    <font size=4 face="">गारजाईवाडीतून गडावर जाण्यास २ तास लागतात. सांदोशीतून गडावर जाण्यास ३ तास
+                        लागतात.</font>
+                </Td>
+            </tr>
+        <p>
+
+
+    </table>
+
+    <!-- image slides -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+
+    <!-- end page text -->
+
+
+<!-- last  -->
+    <br><hr><br>
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2020-2021 iCoder, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
